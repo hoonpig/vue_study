@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+        <script src="./vue.js"></script>
+		
+		<script>
+			function changeMode(){
+				app4.todos.push({text:"pm11:00"})
+			}
+		</script>
+		
+		
+    </head>
+    <body>
+        
+        <div id="app-6">
+		  <p>{{ message }}</p>
+		  <input v-model="message">
+		</div>
+        
+		<a href="javascript:changeMode();">event</a>
+		
+        <script src="index.js"></script>
+    </body>
+</html>
